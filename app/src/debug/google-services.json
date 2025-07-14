@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511767993120",
+    "project_id": "reccon-b0dc0",
+    "storage_bucket": "reccon-b0dc0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511767993120:android:04c3290909770b07d15545",
+        "android_client_info": {
+          "package_name": "com.muzammil.android.templates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkFU6RlfJ13JGEedjsGmZFQXHTqNf0ZA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
