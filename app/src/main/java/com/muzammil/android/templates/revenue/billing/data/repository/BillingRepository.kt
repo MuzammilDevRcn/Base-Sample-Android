@@ -59,6 +59,7 @@ class BillingRepository(
     }
 
     fun launchPurchase(activity: Activity, productName: String) {
+        println()
         billingHelper.launchPurchaseFlow(activity, productName)
     }
 
