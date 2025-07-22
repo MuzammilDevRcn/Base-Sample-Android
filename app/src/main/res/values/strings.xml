@@ -10,4 +10,39 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+
+    <!--  In App Purchase -->
+    <string name="get_premium">Get Premium</string>
+    <string name="premium_benefit_1">Fast Navigation</string>
+    <string name="premium_benefit_2">Ads Free Experience</string>
+    <string name="premium_benefit_3">5x Faster</string>
+    <string name="premium_benefit_4">Quick Share Stamp Location</string>
+
+    <string name="_continue">Continue</string>
+
+    <string name="select_a_plan">Select a plan first</string>
+
+    <string name="weekly">Weekly</string>
+    <string name="weekly_desc">Cancel Anytime</string>
+
+    <string name="monthly">Monthly</string>
+    <string name="monthly_desc">Cancel Anytime</string>
+
+    <string name="yearly">Yearly</string>
+    <string name="yearly_desc">Cancel Anytime</string>
+
+    <string name="lifetime">LifeTime</string>
+    <string name="lifetime_desc">One time purchase</string>
+
+    <string name="cancel_any_time">Cancel Anytime</string>
+    <string name="premium_description">3-Days Free Trial, then <b>Rs</b> %1$s/year Cancel subscription anytime, before 24hrs</string>
+
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="privacy_policy_underline"><u>Privacy policy</u></string>
+    <string name="term_amp_services_link"><u><![CDATA[Term & Services]]></u></string>
+
+    <string name="product_not_available">Product not available</string>
+    <string name="error_occurred">Error occurred</string>
+
 </resources>

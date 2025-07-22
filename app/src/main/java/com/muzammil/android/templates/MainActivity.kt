@@ -15,7 +15,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
-import com.muzammil.android.templates.core.base.activities.BaseActivity
+import com.muzammil.android.templates.core.base.activities.AbsBaseActivity
 import com.muzammil.android.templates.core.extensions.delayDrawUntil
 import com.muzammil.android.templates.databinding.ActivityMainBinding
 import com.muzammil.android.templates.revenue.AdsViewModel
@@ -26,7 +26,7 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::inflate) {
+class MainActivity : AbsBaseActivity<ActivityMainBinding>(ActivityMainBinding::inflate) {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private val adsViewModel by viewModel<AdsViewModel>()

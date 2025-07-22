@@ -16,7 +16,8 @@ android {
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.muzammil.android.templates"
+//        applicationId = "com.muzammil.android.templates"
+        applicationId = "com.gallery.photo.galerie.galeria.foto.galerij.galeri.galleri.galery"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
 

@@ -1,0 +1,76 @@
+<resources>
+    <!-- Primary -->
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimaryContainer">#4A0072</color>
+    <color name="colorOnPrimaryContainer">#FFFFFF</color>
+
+    <!-- Secondary -->
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorSecondaryContainer">#005B52</color>
+    <color name="colorOnSecondaryContainer">#FFFFFF</color>
+
+    <!-- Tertiary -->
+    <color name="colorTertiary">#FFC107</color>
+    <color name="colorOnTertiary">#000000</color>
+    <color name="colorTertiaryContainer">#795548</color>
+    <color name="colorOnTertiaryContainer">#FFFFFF</color>
+
+    <!-- Background & Surface -->
+    <color name="colorBackground">#121212</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+    <color name="colorSurface">#1E1E1E</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+    <color name="colorSurfaceVariant">#2C2C2C</color>
+    <color name="colorOnSurfaceVariant">#E0E0E0</color>
+
+    <!-- Error -->
+    <color name="colorError">#CF6679</color>
+    <color name="colorOnError">#000000</color>
+    <color name="colorErrorContainer">#B00020</color>
+    <color name="colorOnErrorContainer">#FFFFFF</color>
+
+    <!-- Inverse -->
+    <color name="colorSurfaceInverse">#FFFFFF</color>
+    <color name="colorOnSurfaceInverse">#121212</color>
+    <color name="colorPrimaryInverse">#E1BEE7</color>
+
+    <!-- Outline & Scrim -->
+    <color name="colorOutline">#666666</color>
+    <color name="scrimBackground">#99000000</color>
+
+    <!-- Utility -->
+    <color name="colorDivider">#666666</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorOnAccent">#000000</color>
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecondary">#BDBDBD</color>
+    <color name="colorRipple">#80FFFFFF</color>
+
+    <!-- Transparent Shades -->
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorTransparent80">#80FFFFFF</color>
+    <color name="colorTransparent40">#40FFFFFF</color>
+    <color name="colorTransparent20">#20FFFFFF</color>
+    <color name="colorTransparent10">#10FFFFFF</color>
+    <color name="colorTransparent5">#05FFFFFF</color>
+    <color name="colorTransparent3">#03FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="colorSuccess">#388E3C</color>
+    <color name="colorOnSuccess">#FFFFFF</color>
+    <color name="colorWarning">#FFC107</color>
+    <color name="colorOnWarning">#000000</color>
+    <color name="colorInfo">#64B5F6</color>
+    <color name="colorOnInfo">#000000</color>
+
+    <!-- Legacy Compatibility -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

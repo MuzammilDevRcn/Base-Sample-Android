@@ -11,27 +11,24 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.core.view.updatePadding
 import androidx.viewbinding.ViewBinding
-import com.muzammil.android.templates.core.utils.Constants.TAG
 import com.google.android.material.color.DynamicColors
+import com.muzammil.android.templates.core.utils.Constants.TAG
+import com.muzammil.android.templates.koin.DiComponent
 
-abstract class BaseActivity<T : ViewBinding>(private val bindingFactory: (LayoutInflater) -> T) : AppCompatActivity() {
+abstract class AbsBaseActivity<T : ViewBinding>(private val bindingFactory: (LayoutInflater) -> T) : AppCompatActivity() {
 
     protected val binding by lazy { bindingFactory(layoutInflater) }
     protected var includeTopPadding = true
     protected var includeBottomPadding = true
 
+    protected val diComponent by lazy { DiComponent() }
     override fun onCreate(savedInstanceState: Bundle?) {
-        onPreCreated()
         enableEdgeToEdge()
-
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        setPadding()
+      //  setPadding()
     }
 
-    open fun onPreCreated() {
-
-    }
 
     private fun setPadding() {
         ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets ->

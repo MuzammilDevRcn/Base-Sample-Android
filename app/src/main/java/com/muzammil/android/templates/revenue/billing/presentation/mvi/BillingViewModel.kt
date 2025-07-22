@@ -17,6 +17,7 @@ class BillingViewModel(private val repository: BillingRepository) : ViewModel() 
     fun selectProductType(type: ProductType) {
         _selectedProductType.value = type
     }
+
     fun launchPurchase(activity: Activity, productName: String) {
         repository.launchPurchase(activity, productName)
     }
@@ -37,6 +38,6 @@ class BillingViewModel(private val repository: BillingRepository) : ViewModel() 
 }
 
 enum class ProductType {
-    MONTHLY, YEARLY, LIFETIME, NONE
+    NONE, WEEKLY, MONTHLY, YEARLY, LIFETIME
 }
 
