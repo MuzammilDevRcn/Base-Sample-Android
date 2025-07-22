@@ -1,4 +1,3 @@
-import org.gradle.kotlin.dsl.implementation
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -135,4 +134,7 @@ dependencies {
 
     // Memory Leaks
     debugImplementation(libs.leakcanary.android)
+
+    implementation("com.github.mvojtkovszky:BillingHelper:4.0.1")
+
 }

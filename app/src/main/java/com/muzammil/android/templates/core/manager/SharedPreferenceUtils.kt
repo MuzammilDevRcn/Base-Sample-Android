@@ -4,20 +4,18 @@ import android.content.Context
 import com.muzammil.android.templates.R
 
 
-class SharedPreferenceUtils ( private val context: Context) {
+class SharedPreferenceUtils(private val context: Context) {
 
     private val sharedPreferences by lazy { context.getSharedPreferences("app_prefs", Context.MODE_PRIVATE) }
 
-    private val billingRequireKey = "isAppPurchased"
-    private val isShowFirstScreenKey = "showFirstScreen"
 
     /* ---------- Billing ---------- */
 
     var isAppPurchased: Boolean
-        get() = sharedPreferences.getBoolean(billingRequireKey, false)
+        get() = sharedPreferences.getBoolean("in_app_billing_purchase_key", false)
         set(value) {
             sharedPreferences.edit().apply {
-                putBoolean(billingRequireKey, value)
+                putBoolean("in_app_billing_purchase_key", value)
                 apply()
             }
         }
@@ -88,7 +86,7 @@ class SharedPreferenceUtils ( private val context: Context) {
 
     /* ----- Interstitial Ads ----- */
 
-    private  val INTER_SPLASH_AD_UNIT="inter_splash_ad_unit"
+    private val INTER_SPLASH_AD_UNIT = "inter_splash_ad_unit"
 
     val admobSplashInterstitialAdUnit = "admob_splash_interstitial_ad_unit"
 
